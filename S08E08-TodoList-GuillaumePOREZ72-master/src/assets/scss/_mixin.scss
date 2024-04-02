@@ -1,0 +1,6 @@
+@use './var';
+
+@mixin gradiant-1 {
+    background: var.$bg-color-2;
+    background: linear-gradient(150deg, var.$bg-color-1 0%, var.$bg-color-2 80%, var.$bg-color-3 90%, var.$bg-color-4 100%);
+}

@@ -1,0 +1,15 @@
+@use './mixin';
+@use './var';
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    font-family: 'Permanent Marker', cursive;
+    color: var.$color-1;
+    height: 100vh;
+    @include mixin.gradiant-1;
+}
+
+* {
+    box-sizing: border-box;
+}
